@@ -46,4 +46,24 @@ h1 span {
     margin-bottom: 25px;
   }
 }
+
+header .row {
+  margin: 0;
+}
+
+header .row .col {
+  background-image: url(images/tmp/Blood-donation.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 400px;
+  margin: 0px;
+}
+
+section .section-col {
+  margin-top: 20px;
+  text-align: start;
+  font-family: "Roboto", sans-serif;
+  color: #444444;
+}
 /*# sourceMappingURL=style.css.map */
