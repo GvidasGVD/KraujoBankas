@@ -62,11 +62,22 @@ header .row .col {
 
 section .my-fluid {
   margin-top: 30px;
+  font-family: "Roboto", sans-serif;
+  color: #444444;
+}
+
+section ul {
+  list-style-type: initial;
+  list-style-position: inside;
 }
 
 section .section-col {
   text-align: start;
   font-family: "Roboto", sans-serif;
   color: #444444;
+}
+
+section h2 {
+  text-transform: uppercase;
 }
 /*# sourceMappingURL=style.css.map */
