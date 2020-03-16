@@ -1,108 +1,177 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Kraujo Bankas</title>
-    <link rel="stylesheet" href="reset.css" />
-    <link
-      href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      href="https://fonts.googleapis.com/css?family=Archivo:400,700|Roboto:400,700&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
-      crossorigin="anonymous"
-    />
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <div class="container-fluid my-fluid">
-      <!-- main logo -->
-      <a href="#" class="navbar-brand "
-        ><h1><span>K</span>RAUJO-BANKAS</h1></a
-      >
-      <!-- responsive navbar -->
-      <nav class="navbar navbar-expand-xl navbar-light bg-light">
-        <button
-          class="navbar-toggler ml-auto my-toggler"
-          data-toggle="collapse"
-          data-target="#navbarmenu"
-        >
-          <span class="navbar-toggler-icon my-toggler"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarmenu">
-          <ul class="navbar-nav mr-auto navbar-brand">
-            <li class="nav-item">
-              <a href="#" class="nav-link ">PRADŽIA</a>
-            </li>
-            <li class="nav-item">
-              <a href="#" class="nav-link ">APIE MUS</a>
-            </li>
-            <li class="nav-item">
-              <a href="#" class="nav-link ">TURITE KLAUSIMŲ?</a>
-            </li>
-            <li class="nav-item">
-              <a href="#" class="nav-link ">INFORMACIJA DONORUI</a>
-            </li>
-          </ul>
-          <div class="row my-row">
-            <div class="col">
-              <button type="button" class="btn btn-dark">REGISTRACIJA</button>
-            </div>
-            <div class="col">
-              <button type="button" class="btn my-btn">PRISIJUNGIMAS</button>
-            </div>
-          </div>
-        </div>
-      </nav>
-    </div>
-    <header>
-      <div class="container-fluid my-fluid">
-        <div class="row my-row">
-          <div class="col">
-            <!-- inserted img header image via css -->
-          </div>
-        </div>
-      </div>
-    </header>
-    <section>
-      <div class="container-fluid my-fluid">
-        <div class="row my-row">
-          <div class="col section-col">
-            <h2>Lorem Text</h2>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores,
-              perspiciatis? Eos earum adipisci totam voluptatum libero
-              laudantium aperiam soluta ratione quisquam ea natus, a ab
-              inventore aspernatur, magnam tempore cum? Lorem, ipsum dolor sit
-              amet consectetur adipisicing elit. Ipsam facilis error ullam
-              voluptatem, quod rerum debitis voluptas commodi placeat sunt
-              adipisci a est ipsa porro quo praesentium eligendi ab repellendus.
-            </p>
-          </div>
-        </div>
-      </div>
-    </section>
-    <script
-      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
-      crossorigin="anonymous"
-    ></script>
-  </body>
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Kraujo Bankas</title>
+		<link rel="stylesheet" href="reset.css" />
+		<link
+			href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap"
+			rel="stylesheet"
+		/>
+		<link
+			href="https://fonts.googleapis.com/css?family=Archivo:400,700|Roboto:400,700&display=swap"
+			rel="stylesheet"
+		/>
+		<link
+			rel="stylesheet"
+			href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+			integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+			crossorigin="anonymous"
+		/>
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<body>
+		<div class="container-fluid my-fluid">
+			<!-- main logo -->
+			<a href="#" class="navbar-brand "
+				><h1><span>K</span>RAUJO-BANKAS</h1></a
+			>
+			<!-- responsive navbar -->
+			<nav class="navbar navbar-expand-xl navbar-light bg-light">
+				<button
+					class="navbar-toggler ml-auto my-toggler"
+					data-toggle="collapse"
+					data-target="#navbarmenu"
+				>
+					<span class="navbar-toggler-icon my-toggler"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarmenu">
+					<ul class="navbar-nav mr-auto navbar-brand">
+						<li class="nav-item">
+							<a href="#" class="nav-link ">PRADŽIA</a>
+						</li>
+						<li class="nav-item">
+							<a href="#" class="nav-link ">APIE MUS</a>
+						</li>
+						<li class="nav-item">
+							<a href="#" class="nav-link ">ISTORIJA</a>
+						</li>
+						<li class="nav-item">
+							<a href="#" class="nav-link ">INFORMACIJA DONORUI</a>
+						</li>
+					</ul>
+					<div class="row my-row">
+						<div class="col">
+							<button type="button" class="btn btn-dark">REGISTRACIJA</button>
+						</div>
+						<div class="col">
+							<button type="button" class="btn my-btn">PRISIJUNGIMAS</button>
+						</div>
+					</div>
+				</div>
+			</nav>
+		</div>
+		<header>
+			<div class="container-fluid my-fluid">
+				<div class="row my-row">
+					<div class="col">
+						<!-- inserted img header image via css -->
+					</div>
+				</div>
+			</div>
+		</header>
+		<section>
+			<div class="container-fluid my-fluid">
+				<div class="row my-row">
+					<div class="col section-col">
+						<h2>Lorem Text</h2>
+						<p>
+							Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores,
+							perspiciatis? Eos earum adipisci totam voluptatum libero
+							laudantium aperiam soluta ratione quisquam ea natus, a ab
+							inventore aspernatur, magnam tempore cum? Lorem, ipsum dolor sit
+							amet consectetur adipisicing elit. Ipsam facilis error ullam
+							voluptatem, quod rerum debitis voluptas commodi placeat sunt
+							adipisci a est ipsa porro quo praesentium eligendi ab repellendus.
+						</p>
+					</div>
+				</div>
+			</div>
+			<!-- cards for blood banks  -->
+			<div class="container-fluid my-fluid">
+				<div class="row my-row">
+					<div class="col-sm-4">
+						<div class="card">
+							<div class="card-body">
+								<h5 class="card-title">Special title treatment</h5>
+								<p class="card-text">
+									With supporting text below as a natural lead-in to additional
+									content.
+								</p>
+								<a href="#" class="btn btn-primary">Go somewhere</a>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-4">
+						<div class="card">
+							<div class="card-body">
+								<h5 class="card-title">Special title treatment</h5>
+								<p class="card-text">
+									With supporting text below as a natural lead-in to additional
+									content.
+								</p>
+								<a href="#" class="btn btn-primary">Go somewhere</a>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-4">
+						<div class="card">
+							<div class="card-body">
+								<h5 class="card-title">Special title treatment</h5>
+								<p class="card-text">
+									With supporting text below as a natural lead-in to additional
+									content.
+								</p>
+								<a href="#" class="btn btn-primary">Go somewhere</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- this p tag is for making space between cards -->
+				<p class="card-text"></p>
+				<div class="row my-row">
+					<div class="col-sm-6">
+						<div class="card">
+							<div class="card-body">
+								<h5 class="card-title">Special title treatment</h5>
+								<p class="card-text">
+									With supporting text below as a natural lead-in to additional
+									content.
+								</p>
+								<a href="#" class="btn btn-primary">Go somewhere</a>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-6">
+						<div class="card">
+							<div class="card-body">
+								<h5 class="card-title">Special title treatment</h5>
+								<p class="card-text">
+									With supporting text below as a natural lead-in to additional
+									content.
+								</p>
+								<a href="#" class="btn btn-primary">Go somewhere</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<script
+			src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+			integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+			crossorigin="anonymous"
+		></script>
+		<script
+			src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+			integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+			crossorigin="anonymous"
+		></script>
+		<script
+			src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+			integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+			crossorigin="anonymous"
+		></script>
+	</body>
 </html>
