@@ -10,8 +10,9 @@
 *.userosscache
 *.sln.docstates
 /.gitignore
-*obj\debug
-*obj\Debug
+*obj/debug
+*obj/Debug
+*obj/Release
 
 # User-specific files (MonoDevelop/Xamarin Studio)
 *.userprefs
