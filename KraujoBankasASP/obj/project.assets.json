@@ -660,11 +660,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Paulius\\Documents\\GitHub\\KraujoBankas\\KraujoBankasASP\\KraujoBankasASP.csproj",
+      "projectUniqueName": "C:\\Users\\Paulius\\source\\repos\\KraujoBankas-master\\KraujoBankasASP\\KraujoBankasASP.csproj",
       "projectName": "KraujoBankasASP",
-      "projectPath": "C:\\Users\\Paulius\\Documents\\GitHub\\KraujoBankas\\KraujoBankasASP\\KraujoBankasASP.csproj",
+      "projectPath": "C:\\Users\\Paulius\\source\\repos\\KraujoBankas-master\\KraujoBankasASP\\KraujoBankasASP.csproj",
       "packagesPath": "C:\\Users\\Paulius\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Paulius\\Documents\\GitHub\\KraujoBankas\\KraujoBankasASP\\obj\\",
+      "outputPath": "C:\\Users\\Paulius\\source\\repos\\KraujoBankas-master\\KraujoBankasASP\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Paulius\\AppData\\Roaming\\NuGet\\NuGet.Config",
