@@ -1,0 +1,83 @@
+nav .my-btn {
+  background-color: #88addb;
+}
+
+nav ul {
+  font-family: "Archivo", sans-serif;
+  letter-spacing: 0.4px;
+  word-spacing: 0.2rem;
+  font-weight: 700;
+}
+
+nav ul li {
+  margin: auto 20px !important;
+  font-size: 14px;
+}
+
+nav .my-row {
+  text-align: center;
+}
+
+.my-fluid {
+  width: 75%;
+  margin: auto;
+}
+
+h1 {
+  font-family: "Roboto", sans-serif;
+  margin-top: 0.5rem;
+  color: #444444;
+}
+
+h1 span {
+  color: #a30000da;
+}
+
+.my-toggler:focus,
+.my-toggler:active,
+.my-toggler:focus {
+  outline: none !important;
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
+}
+
+@media (max-width: 1199px) {
+  .navbar-nav {
+    margin-bottom: 25px;
+  }
+}
+
+header .row {
+  margin: 0;
+}
+
+header .row .col {
+  background-image: url(images/tmp/Blood-donation.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 400px;
+  margin: 0px;
+}
+
+section .my-fluid {
+  margin-top: 30px;
+  font-family: "Roboto", sans-serif;
+  color: #444444;
+}
+
+section ul {
+  list-style-type: initial;
+  list-style-position: inside;
+}
+
+section .section-col {
+  text-align: start;
+  font-family: "Roboto", sans-serif;
+  color: #444444;
+}
+
+section h2 {
+  text-transform: uppercase;
+}
+/*# sourceMappingURL=style.css.map */
